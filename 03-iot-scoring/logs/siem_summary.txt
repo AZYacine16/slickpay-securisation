@@ -1,0 +1,28 @@
+=== Mini-SIEM SlickPay - Rapport de synthèse ===
+
+Nombre total d'événements analysés : 200
+Nombre total d'alertes générées : 210
+  - Alertes issues du moteur de règles : 180
+  - Alertes issues du modèle Isolation Forest : 30
+
+Répartition par décision :
+- ACCEPTED : 69
+- REVIEW : 111
+- BLOCKED : 20
+
+Répartition par sévérité :
+- MEDIUM : 64
+- HIGH : 126
+- CRITICAL : 20
+
+Répartition par type d'alerte :
+- UNUSUAL_CONTEXT : 49
+- SUSPICIOUS_TRANSACTION : 111
+- HIGH_RISK_TRANSACTION : 20
+- ML_ANOMALY : 30
+
+Apport du modèle d'apprentissage automatique :
+- Anomalies ML sur des transactions acceptées par les règles : 3
+
+Conclusion :
+Des transactions critiques ont été détectées et doivent être traitées en priorité.

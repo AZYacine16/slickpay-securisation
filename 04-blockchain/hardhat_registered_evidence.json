@@ -1,0 +1,72 @@
+{
+  "project": "SlickPay blockchain Hardhat PoC",
+  "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "registeredAt": "2026-05-06T12:13:08.733Z",
+  "registeredEvidence": [
+    {
+      "evidenceId": 0,
+      "fileName": "siem_alerts.jsonl",
+      "sourcePath": "logs/siem_alerts.jsonl",
+      "evidenceType": "MINI_SIEM_ALERTS",
+      "sha256": "f95d54130b751115934043be6a43ab60c47546fff6131a17c4c3545e59d8e6b6",
+      "transactionHash": "0xbb47b26bb5a1732d0efadc375cc6be61fe8ae66cd342dda4a954ab8dffad0e66",
+      "blockNumber": 2
+    },
+    {
+      "evidenceId": 1,
+      "fileName": "siem_summary.txt",
+      "sourcePath": "logs/siem_summary.txt",
+      "evidenceType": "MINI_SIEM_SUMMARY",
+      "sha256": "51da09644b50753540ed4d418f394230891867e7110f9f01abccc64b738eadb4",
+      "transactionHash": "0x7799cece5af50d1b6b45b38809d7d6848fde6cc2633b93c6a1b5b6656e0c1c16",
+      "blockNumber": 3
+    },
+    {
+      "evidenceId": 2,
+      "fileName": "wazuh_compose_ps.txt",
+      "sourcePath": "logs/wazuh_compose_ps.txt",
+      "evidenceType": "WAZUH_PROOF",
+      "sha256": "33b5b3a6d4a0dc9be08eab5535f05c525a9605210c5d2c56a1fea36720faabf3",
+      "transactionHash": "0xb82cb10c03758c833060dc0e5c3966855b4c9d2aae21bb27343177515345457f",
+      "blockNumber": 4
+    },
+    {
+      "evidenceId": 3,
+      "fileName": "wazuh_dashboard_logs.txt",
+      "sourcePath": "logs/wazuh_dashboard_logs.txt",
+      "evidenceType": "WAZUH_PROOF",
+      "sha256": "4177899d2bff7c446879dcffe983101795c9770b7b173deed2aadf09b38f7dcf",
+      "transactionHash": "0xe2e7db72c93fbac77bb5e447d0e0eae098a77fde539db29ca0d3a2f550857f09",
+      "blockNumber": 5
+    },
+    {
+      "evidenceId": 4,
+      "fileName": "wazuh_indexer_logs.txt",
+      "sourcePath": "logs/wazuh_indexer_logs.txt",
+      "evidenceType": "WAZUH_PROOF",
+      "sha256": "d73f51e315462496788038c450d4b0c9289ca80ac7671636b099bed9864703f4",
+      "transactionHash": "0x95fd688d44f995eb80b23e1b79b5f889cac336da44a6fc020b48557f613ad94b",
+      "blockNumber": 6
+    },
+    {
+      "evidenceId": 5,
+      "fileName": "wazuh_manager_logs.txt",
+      "sourcePath": "logs/wazuh_manager_logs.txt",
+      "evidenceType": "WAZUH_PROOF",
+      "sha256": "95f4edde8890831d6991720fa1e6436fe7e77db574d10c33ebe2f45a07dcba6c",
+      "transactionHash": "0x8c45fe1f4bdb4a586bfa5e43ca3c3fc59d2f44acb06044c1ebb86f937e1d369a",
+      "blockNumber": 7
+    },
+    {
+      "evidenceId": 6,
+      "fileName": "wazuh_disk_state.txt",
+      "sourcePath": "logs/wazuh_disk_state.txt",
+      "evidenceType": "WAZUH_PROOF",
+      "sha256": "dbd7c32b7bb8157c1d28fe77b1169203e4ec13a76eff96f5b335e9da0bd237ef",
+      "transactionHash": "0xf4fea5066dd1240103e79503728f2f298ddda24404003c9e50725478b6aa9fbe",
+      "blockNumber": 8
+    }
+  ],
+  "missingFiles": [],
+  "privacyNote": "Only SHA-256 hashes and minimal metadata are stored on-chain. Original logs are not stored in the smart contract."
+}

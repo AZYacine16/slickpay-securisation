@@ -1,0 +1,200 @@
+wazuh.manager-1  | Updating /var/ossec/active-response/bin/pf
+wazuh.manager-1  | Updating /var/ossec/active-response/bin/restart-wazuh
+wazuh.manager-1  | Updating /var/ossec/active-response/bin/restart.sh
+wazuh.manager-1  | Updating /var/ossec/active-response/bin/route-null
+wazuh.manager-1  | Updating /var/ossec/agentless/sshlogin.exp
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_pixconfig_diff
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_asa-fwsmconfig_diff
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_integrity_check_bsd
+wazuh.manager-1  | Updating /var/ossec/agentless/main.exp
+wazuh.manager-1  | Updating /var/ossec/agentless/su.exp
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_integrity_check_linux
+wazuh.manager-1  | Updating /var/ossec/agentless/register_host.sh
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_generic_diff
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_foundry_diff
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh_nopass.exp
+wazuh.manager-1  | Updating /var/ossec/agentless/ssh.exp
+wazuh.manager-1  | Updating /var/ossec/wodles/utils.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/aws-s3
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/aws-s3.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/aws_tools.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/wazuh_integration.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/aws_bucket.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/cloudtrail.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/config.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/guardduty.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/load_balancers.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/server_access.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/umbrella.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/vpcflow.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/buckets_s3/waf.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/services/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/services/aws_service.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/services/cloudwatchlogs.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/services/inspector.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/subscribers/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/subscribers/s3_log_handler.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/subscribers/sqs_message_processor.py
+wazuh.manager-1  | Updating /var/ossec/wodles/aws/subscribers/sqs_queue.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure-logs
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure-logs.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/db/orm.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/db/utils.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/db/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure_utils.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure_services/__init__.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure_services/analytics.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure_services/graph.py
+wazuh.manager-1  | Updating /var/ossec/wodles/azure/azure_services/storage.py
+wazuh.manager-1  | Updating /var/ossec/wodles/docker/DockerListener
+wazuh.manager-1  | Updating /var/ossec/wodles/docker/DockerListener.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/gcloud
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/gcloud.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/integration.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/tools.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/exceptions.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/buckets/bucket.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/buckets/access_logs.py
+wazuh.manager-1  | Updating /var/ossec/wodles/gcloud/pubsub/subscriber.py
+wazuh.manager-1  | Updating /var/ossec/etc/lists/malicious-ioc/malicious-ip
+wazuh.manager-1  | Updating /var/ossec/etc/lists/malicious-ioc/malicious-domains
+wazuh.manager-1  | Updating /var/ossec/etc/lists/malicious-ioc/malware-hashes
+wazuh.manager-1  | Updating /etc/filebeat/wazuh-template.json
+wazuh.manager-1  | Updating /etc/filebeat/filebeat.yml
+wazuh.manager-1  | find: '/proc/400/task/400/fd/5': No such file or directory
+wazuh.manager-1  | find: '/proc/400/task/400/fdinfo/5': No such file or directory
+wazuh.manager-1  | find: '/proc/400/fd/6': No such file or directory
+wazuh.manager-1  | find: '/proc/400/fdinfo/6': No such file or directory
+wazuh.manager-1  | find: '/proc/401/task/401/fd/5': No such file or directory
+wazuh.manager-1  | find: '/proc/401/task/401/fdinfo/5': No such file or directory
+wazuh.manager-1  | find: '/proc/401/fd/6': No such file or directory
+wazuh.manager-1  | find: '/proc/401/fdinfo/6': No such file or directory
+wazuh.manager-1  | find: '/proc/402/task/402/fd/5': No such file or directory
+wazuh.manager-1  | find: '/proc/402/task/402/fdinfo/5': No such file or directory
+wazuh.manager-1  | find: '/proc/402/fd/6': No such file or directory
+wazuh.manager-1  | find: '/proc/402/fdinfo/6': No such file or directory
+wazuh.manager-1  | Creating wazuh-authd key and cert
+wazuh.manager-1  | Identified Wazuh configuration files to mount...
+wazuh.manager-1  | '/wazuh-config-mount/etc/ossec.conf' -> '/var/ossec/etc/ossec.conf'
+wazuh.manager-1  | [cont-init.d] 0-wazuh-init: exited 0.
+wazuh.manager-1  | [cont-init.d] 1-config-filebeat: executing... 
+wazuh.manager-1  | Customize Elasticsearch output IP
+wazuh.manager-1  | Configuring username.
+wazuh.manager-1  | Configuring password.
+wazuh.manager-1  | Configuring SSL verification mode.
+wazuh.manager-1  | Configuring Certificate Authorities.
+wazuh.manager-1  | Configuring SSL Certificate.
+wazuh.manager-1  | Configuring SSL Key.
+wazuh.manager-1  | [cont-init.d] 1-config-filebeat: exited 0.
+wazuh.manager-1  | [cont-init.d] 2-manager: executing... 
+wazuh.manager-1  | Configuring password.
+wazuh.manager-1  | 2026/05/05 12:28:42 wazuh-modulesd:router: INFO: Loaded router module.
+wazuh.manager-1  | 2026/05/05 12:28:42 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+wazuh.manager-1  | 2026/05/05 12:28:42 wazuh-modulesd:inventory-harvester: INFO: Loaded Inventory harvester module.
+wazuh.manager-1  | Starting Wazuh v4.14.5...
+wazuh.manager-1  | Started wazuh-apid...
+wazuh.manager-1  | Started wazuh-csyslogd...
+wazuh.manager-1  | Started wazuh-dbd...
+wazuh.manager-1  | 2026/05/05 12:28:49 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+wazuh.manager-1  | Started wazuh-integratord...
+wazuh.manager-1  | Started wazuh-agentlessd...
+wazuh.manager-1  | Started wazuh-authd...
+wazuh.manager-1  | Started wazuh-db...
+wazuh.manager-1  | Started wazuh-execd...
+wazuh.manager-1  | Started wazuh-analysisd...
+wazuh.manager-1  | Started wazuh-syscheckd...
+wazuh.manager-1  | Started wazuh-remoted...
+wazuh.manager-1  | Started wazuh-logcollector...
+wazuh.manager-1  | Started wazuh-monitord...
+wazuh.manager-1  | 2026/05/05 12:28:56 wazuh-modulesd:router: INFO: Loaded router module.
+wazuh.manager-1  | 2026/05/05 12:28:56 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+wazuh.manager-1  | 2026/05/05 12:28:56 wazuh-modulesd:inventory-harvester: INFO: Loaded Inventory harvester module.
+wazuh.manager-1  | Started wazuh-modulesd...
+wazuh.manager-1  | Completed.
+wazuh.manager-1  | [cont-init.d] 2-manager: exited 0.
+wazuh.manager-1  | [cont-init.d] done.
+wazuh.manager-1  | [services.d] starting services
+wazuh.manager-1  | starting Filebeat
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-hotfixes-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-hardware-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-protocols-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-interfaces-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-networks-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:58 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-users-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:59 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-groups-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:59 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-browser-extensions-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | 2026/05/05 12:28:59 logger-helper: INFO: InventoryHarvesterFacade module started.
+wazuh.manager-1  | 2026/05/05 12:28:59 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-inventory-services-wazuh.manager', retrying until the connection is successful.
+wazuh.manager-1  | [services.d] done.
+wazuh.manager-1  | 2026-05-05T12:29:00.792Z	INFO	instance/beat.go:645	Home path: [/usr/share/filebeat] Config path: [/etc/filebeat] Data path: [/var/lib/filebeat] Logs path: [/var/log/filebeat]
+wazuh.manager-1  | 2026-05-05T12:29:00.809Z	INFO	instance/beat.go:653	Beat ID: bfe44bf0-52cd-4ea6-a685-e847be60c7f8
+wazuh.manager-1  | 2026-05-05T12:29:00.817Z	INFO	[seccomp]	seccomp/seccomp.go:124	Syscall filter successfully installed
+wazuh.manager-1  | 2026-05-05T12:29:00.818Z	INFO	[beat]	instance/beat.go:981	Beat info	{"system_info": {"beat": {"path": {"config": "/etc/filebeat", "data": "/var/lib/filebeat", "home": "/usr/share/filebeat", "logs": "/var/log/filebeat"}, "type": "filebeat", "uuid": "bfe44bf0-52cd-4ea6-a685-e847be60c7f8"}}}
+wazuh.manager-1  | 2026-05-05T12:29:00.818Z	INFO	[beat]	instance/beat.go:990	Build info	{"system_info": {"build": {"commit": "aacf9ecd9c494aa0908f61fbca82c906b16562a8", "libbeat": "7.10.2", "time": "2025-10-17T12:05:34.000Z", "version": "7.10.2"}}}
+wazuh.manager-1  | 2026-05-05T12:29:00.818Z	INFO	[beat]	instance/beat.go:993	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":4,"version":"go1.14.12"}}}
+wazuh.manager-1  | 2026-05-05T12:29:00.821Z	INFO	[beat]	instance/beat.go:997	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2026-05-05T12:19:23Z","containerized":false,"name":"wazuh.manager","ip":["127.0.0.1/8","::1/128","172.18.0.2/16"],"kernel_version":"6.10.14-linuxkit","mac":["aa:5a:9f:ed:40:2c"],"os":{"family":"redhat","platform":"amzn","name":"Amazon Linux","version":"2023","major":2023,"minor":11,"patch":20260406},"timezone":"UTC","timezone_offset_sec":0}}}
+wazuh.manager-1  | 2026-05-05T12:29:00.822Z	INFO	[beat]	instance/beat.go:1026	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"effective":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"bounding":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write","setfcap"],"ambient":null}, "cwd": "/run/s6/services/filebeat", "exe": "/usr/share/filebeat/bin/filebeat", "name": "filebeat", "pid": 1849, "ppid": 1844, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2026-05-05T12:28:59.100Z"}}}
+wazuh.manager-1  | 2026-05-05T12:29:00.822Z	INFO	instance/beat.go:299	Setup Beat: filebeat; Version: 7.10.2
+wazuh.manager-1  | 2026-05-05T12:29:00.828Z	INFO	eslegclient/connection.go:99	elasticsearch url: https://wazuh.indexer:9200
+wazuh.manager-1  | 2026-05-05T12:29:00.833Z	INFO	[publisher]	pipeline/module.go:113	Beat name: wazuh.manager
+wazuh.manager-1  | 2026-05-05T12:29:00.851Z	INFO	beater/filebeat.go:117	Enabled modules/filesets: wazuh (alerts),  ()
+wazuh.manager-1  | 2026-05-05T12:29:00.858Z	INFO	instance/beat.go:455	filebeat start running.
+wazuh.manager-1  | 2026-05-05T12:29:00.862Z	INFO	memlog/store.go:119	Loading data file of '/var/lib/filebeat/registry/filebeat' succeeded. Active transaction id=0
+wazuh.manager-1  | 2026-05-05T12:29:00.862Z	INFO	memlog/store.go:124	Finished loading transaction log file for '/var/lib/filebeat/registry/filebeat'. Active transaction id=0
+wazuh.manager-1  | 2026-05-05T12:29:00.863Z	INFO	[registrar]	registrar/registrar.go:109	States Loaded from registrar: 0
+wazuh.manager-1  | 2026-05-05T12:29:00.867Z	INFO	[crawler]	beater/crawler.go:71	Loading Inputs: 1
+wazuh.manager-1  | 2026-05-05T12:29:00.869Z	INFO	log/input.go:157	Configured paths: [/var/ossec/logs/alerts/alerts.json]
+wazuh.manager-1  | 2026-05-05T12:29:00.869Z	INFO	[crawler]	beater/crawler.go:141	Starting input (ID: 9132358592892857476)
+wazuh.manager-1  | 2026-05-05T12:29:00.869Z	INFO	[crawler]	beater/crawler.go:108	Loading and starting Inputs completed. Enabled inputs: 1
+wazuh.manager-1  | 2026-05-05T12:29:00.874Z	INFO	log/harvester.go:302	Harvester started for file: /var/ossec/logs/alerts/alerts.json
+wazuh.manager-1  | 2026-05-05T12:29:09.167Z	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connecting to backoff(elasticsearch(https://wazuh.indexer:9200))
+wazuh.manager-1  | 2026-05-05T12:29:09.166Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:09.181Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026-05-05T12:29:10.742Z	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(https://wazuh.indexer:9200)): Get "https://wazuh.indexer:9200": dial tcp 172.18.0.3:9200: connect: connection refused
+wazuh.manager-1  | 2026-05-05T12:29:10.756Z	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(https://wazuh.indexer:9200)) with 1 reconnect attempt(s)
+wazuh.manager-1  | 2026-05-05T12:29:10.756Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:10.759Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026-05-05T12:29:13.773Z	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(https://wazuh.indexer:9200)): Get "https://wazuh.indexer:9200": dial tcp 172.18.0.3:9200: connect: connection refused
+wazuh.manager-1  | 2026-05-05T12:29:13.775Z	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(https://wazuh.indexer:9200)) with 2 reconnect attempt(s)
+wazuh.manager-1  | 2026-05-05T12:29:13.867Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:13.867Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026/05/05 12:29:18 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_amazon_linux_2023.yml'
+wazuh.manager-1  | 2026/05/05 12:29:19 sca: INFO: Security Configuration Assessment scan finished. Duration: 23 seconds.
+wazuh.manager-1  | 2026-05-05T12:29:20.645Z	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(https://wazuh.indexer:9200)): Get "https://wazuh.indexer:9200": dial tcp 172.18.0.3:9200: connect: connection refused
+wazuh.manager-1  | 2026-05-05T12:29:20.646Z	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(https://wazuh.indexer:9200)) with 3 reconnect attempt(s)
+wazuh.manager-1  | 2026-05-05T12:29:20.647Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:20.648Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026/05/05 12:29:30 wazuh-syscheckd: INFO: netstat not available. Skipping port check.
+wazuh.manager-1  | 2026-05-05T12:29:34.104Z	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(https://wazuh.indexer:9200)): Get "https://wazuh.indexer:9200": dial tcp 172.18.0.3:9200: connect: connection refused
+wazuh.manager-1  | 2026-05-05T12:29:34.125Z	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(https://wazuh.indexer:9200)) with 4 reconnect attempt(s)
+wazuh.manager-1  | 2026-05-05T12:29:34.127Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:34.134Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026/05/05 12:29:35 rootcheck: INFO: Ending rootcheck scan.
+wazuh.manager-1  | 2026-05-05T12:29:57.890Z	ERROR	[publisher_pipeline_output]	pipeline/output.go:154	Failed to connect to backoff(elasticsearch(https://wazuh.indexer:9200)): 503 Service Unavailable: OpenSearch Security not initialized.
+wazuh.manager-1  | 2026-05-05T12:29:57.894Z	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+wazuh.manager-1  | 2026-05-05T12:29:57.895Z	INFO	[publisher]	pipeline/retry.go:223	  done
+wazuh.manager-1  | 2026-05-05T12:29:57.895Z	INFO	[publisher_pipeline_output]	pipeline/output.go:145	Attempting to reconnect to backoff(elasticsearch(https://wazuh.indexer:9200)) with 5 reconnect attempt(s)
+wazuh.manager-1  | 2026-05-05T12:29:58.198Z	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
+wazuh.manager-1  | 2026-05-05T12:29:58.220Z	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
+wazuh.manager-1  | 2026-05-05T12:29:58.989Z	INFO	fileset/pipelines.go:143	Elasticsearch pipeline with ID 'filebeat-7.10.2-wazuh-alerts-pipeline' loaded
+wazuh.manager-1  | 2026-05-05T12:29:59.010Z	INFO	template/load.go:183	Existing template will be overwritten, as overwrite is enabled.
+wazuh.manager-1  | 2026-05-05T12:29:59.024Z	INFO	template/load.go:117	Try loading template wazuh to Elasticsearch
+wazuh.manager-1  | 2026-05-05T12:29:59.479Z	INFO	template/load.go:109	template with name 'wazuh' loaded.
+wazuh.manager-1  | 2026-05-05T12:29:59.479Z	INFO	[index-management]	idxmgmt/std.go:298	Loaded index template.
+wazuh.manager-1  | 2026-05-05T12:29:59.479Z	INFO	[publisher_pipeline_output]	pipeline/output.go:151	Connection to backoff(elasticsearch(https://wazuh.indexer:9200)) established
+wazuh.manager-1  | 2026/05/05 12:30:09 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-packages-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:09 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:09 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-system-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:11 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-protocols-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:11 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-processes-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:11 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hotfixes-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:11 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-ports-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:12 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-services-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:12 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-browser-extensions-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-groups-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-users-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-networks-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-hardware-wazuh.manager.
+wazuh.manager-1  | 2026/05/05 12:30:15 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-inventory-interfaces-wazuh.manager.

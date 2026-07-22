@@ -1,0 +1,46 @@
+# ============================================================
+# .gitignore — SlickPay sécurisation
+# ============================================================
+
+# --- Datasets volumineux (à télécharger séparément, voir README) ---
+*.csv
+PS_*.csv
+corpus_lfw/
+kyc_test/corpus_lfw/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Node / Hardhat (générés à la compilation) ---
+node_modules/
+artifacts/
+cache/
+ignition/deployments/
+coverage/
+coverage.json
+typechain-types/
+
+# --- Sauvegardes et versions de travail ---
+*_ORIGINAL.*
+*_BACKUP*
+*_SAUVEGARDE*
+*_222_*
+*.bak
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Secrets (ne jamais versionner) ---
+.env
+.env.*
+*.key
+*.pem
+secrets.json

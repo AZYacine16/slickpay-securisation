@@ -1,0 +1,8 @@
+{
+  "project": "SlickPay blockchain Hardhat PoC",
+  "contractName": "EvidenceRegistry",
+  "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "deployedAt": "2026-05-06T12:12:51.067Z",
+  "network": "localhost",
+  "purpose": "Register SHA-256 hashes of Mini-SIEM and Wazuh evidence files"
+}

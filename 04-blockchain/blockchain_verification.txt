@@ -1,0 +1,659 @@
+=== Vérification de la blockchain locale ===
+
+Date de vérification UTC : 2026-07-22T15:53:45.156588Z
+Ledger vérifié : /Users/mac/slickpay_iot_poc/logs/blockchain_ledger.json
+
+Résultat global :
+VALIDÉ
+
+Détails :
+[OK] Bloc 1 : hash du bloc correct.
+[OK] Bloc 1 : chaînage previous_hash correct.
+[OK] Bloc 1 : Hash de preuve valide
+[OK] Bloc 2 : hash du bloc correct.
+[OK] Bloc 2 : chaînage previous_hash correct.
+[OK] Bloc 2 : Hash de preuve valide
+[OK] Bloc 3 : hash du bloc correct.
+[OK] Bloc 3 : chaînage previous_hash correct.
+[OK] Bloc 3 : Hash de preuve valide
+[OK] Bloc 4 : hash du bloc correct.
+[OK] Bloc 4 : chaînage previous_hash correct.
+[OK] Bloc 4 : Hash de preuve valide
+[OK] Bloc 5 : hash du bloc correct.
+[OK] Bloc 5 : chaînage previous_hash correct.
+[OK] Bloc 5 : Hash de preuve valide
+[OK] Bloc 6 : hash du bloc correct.
+[OK] Bloc 6 : chaînage previous_hash correct.
+[OK] Bloc 6 : Hash de preuve valide
+[OK] Bloc 7 : hash du bloc correct.
+[OK] Bloc 7 : chaînage previous_hash correct.
+[OK] Bloc 7 : Hash de preuve valide
+[OK] Bloc 8 : hash du bloc correct.
+[OK] Bloc 8 : chaînage previous_hash correct.
+[OK] Bloc 8 : Hash de preuve valide
+[OK] Bloc 9 : hash du bloc correct.
+[OK] Bloc 9 : chaînage previous_hash correct.
+[OK] Bloc 9 : Hash de preuve valide
+[OK] Bloc 10 : hash du bloc correct.
+[OK] Bloc 10 : chaînage previous_hash correct.
+[OK] Bloc 10 : Hash de preuve valide
+[OK] Bloc 11 : hash du bloc correct.
+[OK] Bloc 11 : chaînage previous_hash correct.
+[OK] Bloc 11 : Hash de preuve valide
+[OK] Bloc 12 : hash du bloc correct.
+[OK] Bloc 12 : chaînage previous_hash correct.
+[OK] Bloc 12 : Hash de preuve valide
+[OK] Bloc 13 : hash du bloc correct.
+[OK] Bloc 13 : chaînage previous_hash correct.
+[OK] Bloc 13 : Hash de preuve valide
+[OK] Bloc 14 : hash du bloc correct.
+[OK] Bloc 14 : chaînage previous_hash correct.
+[OK] Bloc 14 : Hash de preuve valide
+[OK] Bloc 15 : hash du bloc correct.
+[OK] Bloc 15 : chaînage previous_hash correct.
+[OK] Bloc 15 : Hash de preuve valide
+[OK] Bloc 16 : hash du bloc correct.
+[OK] Bloc 16 : chaînage previous_hash correct.
+[OK] Bloc 16 : Hash de preuve valide
+[OK] Bloc 17 : hash du bloc correct.
+[OK] Bloc 17 : chaînage previous_hash correct.
+[OK] Bloc 17 : Hash de preuve valide
+[OK] Bloc 18 : hash du bloc correct.
+[OK] Bloc 18 : chaînage previous_hash correct.
+[OK] Bloc 18 : Hash de preuve valide
+[OK] Bloc 19 : hash du bloc correct.
+[OK] Bloc 19 : chaînage previous_hash correct.
+[OK] Bloc 19 : Hash de preuve valide
+[OK] Bloc 20 : hash du bloc correct.
+[OK] Bloc 20 : chaînage previous_hash correct.
+[OK] Bloc 20 : Hash de preuve valide
+[OK] Bloc 21 : hash du bloc correct.
+[OK] Bloc 21 : chaînage previous_hash correct.
+[OK] Bloc 21 : Hash de preuve valide
+[OK] Bloc 22 : hash du bloc correct.
+[OK] Bloc 22 : chaînage previous_hash correct.
+[OK] Bloc 22 : Hash de preuve valide
+[OK] Bloc 23 : hash du bloc correct.
+[OK] Bloc 23 : chaînage previous_hash correct.
+[OK] Bloc 23 : Hash de preuve valide
+[OK] Bloc 24 : hash du bloc correct.
+[OK] Bloc 24 : chaînage previous_hash correct.
+[OK] Bloc 24 : Hash de preuve valide
+[OK] Bloc 25 : hash du bloc correct.
+[OK] Bloc 25 : chaînage previous_hash correct.
+[OK] Bloc 25 : Hash de preuve valide
+[OK] Bloc 26 : hash du bloc correct.
+[OK] Bloc 26 : chaînage previous_hash correct.
+[OK] Bloc 26 : Hash de preuve valide
+[OK] Bloc 27 : hash du bloc correct.
+[OK] Bloc 27 : chaînage previous_hash correct.
+[OK] Bloc 27 : Hash de preuve valide
+[OK] Bloc 28 : hash du bloc correct.
+[OK] Bloc 28 : chaînage previous_hash correct.
+[OK] Bloc 28 : Hash de preuve valide
+[OK] Bloc 29 : hash du bloc correct.
+[OK] Bloc 29 : chaînage previous_hash correct.
+[OK] Bloc 29 : Hash de preuve valide
+[OK] Bloc 30 : hash du bloc correct.
+[OK] Bloc 30 : chaînage previous_hash correct.
+[OK] Bloc 30 : Hash de preuve valide
+[OK] Bloc 31 : hash du bloc correct.
+[OK] Bloc 31 : chaînage previous_hash correct.
+[OK] Bloc 31 : Hash de preuve valide
+[OK] Bloc 32 : hash du bloc correct.
+[OK] Bloc 32 : chaînage previous_hash correct.
+[OK] Bloc 32 : Hash de preuve valide
+[OK] Bloc 33 : hash du bloc correct.
+[OK] Bloc 33 : chaînage previous_hash correct.
+[OK] Bloc 33 : Hash de preuve valide
+[OK] Bloc 34 : hash du bloc correct.
+[OK] Bloc 34 : chaînage previous_hash correct.
+[OK] Bloc 34 : Hash de preuve valide
+[OK] Bloc 35 : hash du bloc correct.
+[OK] Bloc 35 : chaînage previous_hash correct.
+[OK] Bloc 35 : Hash de preuve valide
+[OK] Bloc 36 : hash du bloc correct.
+[OK] Bloc 36 : chaînage previous_hash correct.
+[OK] Bloc 36 : Hash de preuve valide
+[OK] Bloc 37 : hash du bloc correct.
+[OK] Bloc 37 : chaînage previous_hash correct.
+[OK] Bloc 37 : Hash de preuve valide
+[OK] Bloc 38 : hash du bloc correct.
+[OK] Bloc 38 : chaînage previous_hash correct.
+[OK] Bloc 38 : Hash de preuve valide
+[OK] Bloc 39 : hash du bloc correct.
+[OK] Bloc 39 : chaînage previous_hash correct.
+[OK] Bloc 39 : Hash de preuve valide
+[OK] Bloc 40 : hash du bloc correct.
+[OK] Bloc 40 : chaînage previous_hash correct.
+[OK] Bloc 40 : Hash de preuve valide
+[OK] Bloc 41 : hash du bloc correct.
+[OK] Bloc 41 : chaînage previous_hash correct.
+[OK] Bloc 41 : Hash de preuve valide
+[OK] Bloc 42 : hash du bloc correct.
+[OK] Bloc 42 : chaînage previous_hash correct.
+[OK] Bloc 42 : Hash de preuve valide
+[OK] Bloc 43 : hash du bloc correct.
+[OK] Bloc 43 : chaînage previous_hash correct.
+[OK] Bloc 43 : Hash de preuve valide
+[OK] Bloc 44 : hash du bloc correct.
+[OK] Bloc 44 : chaînage previous_hash correct.
+[OK] Bloc 44 : Hash de preuve valide
+[OK] Bloc 45 : hash du bloc correct.
+[OK] Bloc 45 : chaînage previous_hash correct.
+[OK] Bloc 45 : Hash de preuve valide
+[OK] Bloc 46 : hash du bloc correct.
+[OK] Bloc 46 : chaînage previous_hash correct.
+[OK] Bloc 46 : Hash de preuve valide
+[OK] Bloc 47 : hash du bloc correct.
+[OK] Bloc 47 : chaînage previous_hash correct.
+[OK] Bloc 47 : Hash de preuve valide
+[OK] Bloc 48 : hash du bloc correct.
+[OK] Bloc 48 : chaînage previous_hash correct.
+[OK] Bloc 48 : Hash de preuve valide
+[OK] Bloc 49 : hash du bloc correct.
+[OK] Bloc 49 : chaînage previous_hash correct.
+[OK] Bloc 49 : Hash de preuve valide
+[OK] Bloc 50 : hash du bloc correct.
+[OK] Bloc 50 : chaînage previous_hash correct.
+[OK] Bloc 50 : Hash de preuve valide
+[OK] Bloc 51 : hash du bloc correct.
+[OK] Bloc 51 : chaînage previous_hash correct.
+[OK] Bloc 51 : Hash de preuve valide
+[OK] Bloc 52 : hash du bloc correct.
+[OK] Bloc 52 : chaînage previous_hash correct.
+[OK] Bloc 52 : Hash de preuve valide
+[OK] Bloc 53 : hash du bloc correct.
+[OK] Bloc 53 : chaînage previous_hash correct.
+[OK] Bloc 53 : Hash de preuve valide
+[OK] Bloc 54 : hash du bloc correct.
+[OK] Bloc 54 : chaînage previous_hash correct.
+[OK] Bloc 54 : Hash de preuve valide
+[OK] Bloc 55 : hash du bloc correct.
+[OK] Bloc 55 : chaînage previous_hash correct.
+[OK] Bloc 55 : Hash de preuve valide
+[OK] Bloc 56 : hash du bloc correct.
+[OK] Bloc 56 : chaînage previous_hash correct.
+[OK] Bloc 56 : Hash de preuve valide
+[OK] Bloc 57 : hash du bloc correct.
+[OK] Bloc 57 : chaînage previous_hash correct.
+[OK] Bloc 57 : Hash de preuve valide
+[OK] Bloc 58 : hash du bloc correct.
+[OK] Bloc 58 : chaînage previous_hash correct.
+[OK] Bloc 58 : Hash de preuve valide
+[OK] Bloc 59 : hash du bloc correct.
+[OK] Bloc 59 : chaînage previous_hash correct.
+[OK] Bloc 59 : Hash de preuve valide
+[OK] Bloc 60 : hash du bloc correct.
+[OK] Bloc 60 : chaînage previous_hash correct.
+[OK] Bloc 60 : Hash de preuve valide
+[OK] Bloc 61 : hash du bloc correct.
+[OK] Bloc 61 : chaînage previous_hash correct.
+[OK] Bloc 61 : Hash de preuve valide
+[OK] Bloc 62 : hash du bloc correct.
+[OK] Bloc 62 : chaînage previous_hash correct.
+[OK] Bloc 62 : Hash de preuve valide
+[OK] Bloc 63 : hash du bloc correct.
+[OK] Bloc 63 : chaînage previous_hash correct.
+[OK] Bloc 63 : Hash de preuve valide
+[OK] Bloc 64 : hash du bloc correct.
+[OK] Bloc 64 : chaînage previous_hash correct.
+[OK] Bloc 64 : Hash de preuve valide
+[OK] Bloc 65 : hash du bloc correct.
+[OK] Bloc 65 : chaînage previous_hash correct.
+[OK] Bloc 65 : Hash de preuve valide
+[OK] Bloc 66 : hash du bloc correct.
+[OK] Bloc 66 : chaînage previous_hash correct.
+[OK] Bloc 66 : Hash de preuve valide
+[OK] Bloc 67 : hash du bloc correct.
+[OK] Bloc 67 : chaînage previous_hash correct.
+[OK] Bloc 67 : Hash de preuve valide
+[OK] Bloc 68 : hash du bloc correct.
+[OK] Bloc 68 : chaînage previous_hash correct.
+[OK] Bloc 68 : Hash de preuve valide
+[OK] Bloc 69 : hash du bloc correct.
+[OK] Bloc 69 : chaînage previous_hash correct.
+[OK] Bloc 69 : Hash de preuve valide
+[OK] Bloc 70 : hash du bloc correct.
+[OK] Bloc 70 : chaînage previous_hash correct.
+[OK] Bloc 70 : Hash de preuve valide
+[OK] Bloc 71 : hash du bloc correct.
+[OK] Bloc 71 : chaînage previous_hash correct.
+[OK] Bloc 71 : Hash de preuve valide
+[OK] Bloc 72 : hash du bloc correct.
+[OK] Bloc 72 : chaînage previous_hash correct.
+[OK] Bloc 72 : Hash de preuve valide
+[OK] Bloc 73 : hash du bloc correct.
+[OK] Bloc 73 : chaînage previous_hash correct.
+[OK] Bloc 73 : Hash de preuve valide
+[OK] Bloc 74 : hash du bloc correct.
+[OK] Bloc 74 : chaînage previous_hash correct.
+[OK] Bloc 74 : Hash de preuve valide
+[OK] Bloc 75 : hash du bloc correct.
+[OK] Bloc 75 : chaînage previous_hash correct.
+[OK] Bloc 75 : Hash de preuve valide
+[OK] Bloc 76 : hash du bloc correct.
+[OK] Bloc 76 : chaînage previous_hash correct.
+[OK] Bloc 76 : Hash de preuve valide
+[OK] Bloc 77 : hash du bloc correct.
+[OK] Bloc 77 : chaînage previous_hash correct.
+[OK] Bloc 77 : Hash de preuve valide
+[OK] Bloc 78 : hash du bloc correct.
+[OK] Bloc 78 : chaînage previous_hash correct.
+[OK] Bloc 78 : Hash de preuve valide
+[OK] Bloc 79 : hash du bloc correct.
+[OK] Bloc 79 : chaînage previous_hash correct.
+[OK] Bloc 79 : Hash de preuve valide
+[OK] Bloc 80 : hash du bloc correct.
+[OK] Bloc 80 : chaînage previous_hash correct.
+[OK] Bloc 80 : Hash de preuve valide
+[OK] Bloc 81 : hash du bloc correct.
+[OK] Bloc 81 : chaînage previous_hash correct.
+[OK] Bloc 81 : Hash de preuve valide
+[OK] Bloc 82 : hash du bloc correct.
+[OK] Bloc 82 : chaînage previous_hash correct.
+[OK] Bloc 82 : Hash de preuve valide
+[OK] Bloc 83 : hash du bloc correct.
+[OK] Bloc 83 : chaînage previous_hash correct.
+[OK] Bloc 83 : Hash de preuve valide
+[OK] Bloc 84 : hash du bloc correct.
+[OK] Bloc 84 : chaînage previous_hash correct.
+[OK] Bloc 84 : Hash de preuve valide
+[OK] Bloc 85 : hash du bloc correct.
+[OK] Bloc 85 : chaînage previous_hash correct.
+[OK] Bloc 85 : Hash de preuve valide
+[OK] Bloc 86 : hash du bloc correct.
+[OK] Bloc 86 : chaînage previous_hash correct.
+[OK] Bloc 86 : Hash de preuve valide
+[OK] Bloc 87 : hash du bloc correct.
+[OK] Bloc 87 : chaînage previous_hash correct.
+[OK] Bloc 87 : Hash de preuve valide
+[OK] Bloc 88 : hash du bloc correct.
+[OK] Bloc 88 : chaînage previous_hash correct.
+[OK] Bloc 88 : Hash de preuve valide
+[OK] Bloc 89 : hash du bloc correct.
+[OK] Bloc 89 : chaînage previous_hash correct.
+[OK] Bloc 89 : Hash de preuve valide
+[OK] Bloc 90 : hash du bloc correct.
+[OK] Bloc 90 : chaînage previous_hash correct.
+[OK] Bloc 90 : Hash de preuve valide
+[OK] Bloc 91 : hash du bloc correct.
+[OK] Bloc 91 : chaînage previous_hash correct.
+[OK] Bloc 91 : Hash de preuve valide
+[OK] Bloc 92 : hash du bloc correct.
+[OK] Bloc 92 : chaînage previous_hash correct.
+[OK] Bloc 92 : Hash de preuve valide
+[OK] Bloc 93 : hash du bloc correct.
+[OK] Bloc 93 : chaînage previous_hash correct.
+[OK] Bloc 93 : Hash de preuve valide
+[OK] Bloc 94 : hash du bloc correct.
+[OK] Bloc 94 : chaînage previous_hash correct.
+[OK] Bloc 94 : Hash de preuve valide
+[OK] Bloc 95 : hash du bloc correct.
+[OK] Bloc 95 : chaînage previous_hash correct.
+[OK] Bloc 95 : Hash de preuve valide
+[OK] Bloc 96 : hash du bloc correct.
+[OK] Bloc 96 : chaînage previous_hash correct.
+[OK] Bloc 96 : Hash de preuve valide
+[OK] Bloc 97 : hash du bloc correct.
+[OK] Bloc 97 : chaînage previous_hash correct.
+[OK] Bloc 97 : Hash de preuve valide
+[OK] Bloc 98 : hash du bloc correct.
+[OK] Bloc 98 : chaînage previous_hash correct.
+[OK] Bloc 98 : Hash de preuve valide
+[OK] Bloc 99 : hash du bloc correct.
+[OK] Bloc 99 : chaînage previous_hash correct.
+[OK] Bloc 99 : Hash de preuve valide
+[OK] Bloc 100 : hash du bloc correct.
+[OK] Bloc 100 : chaînage previous_hash correct.
+[OK] Bloc 100 : Hash de preuve valide
+[OK] Bloc 101 : hash du bloc correct.
+[OK] Bloc 101 : chaînage previous_hash correct.
+[OK] Bloc 101 : Hash de preuve valide
+[OK] Bloc 102 : hash du bloc correct.
+[OK] Bloc 102 : chaînage previous_hash correct.
+[OK] Bloc 102 : Hash de preuve valide
+[OK] Bloc 103 : hash du bloc correct.
+[OK] Bloc 103 : chaînage previous_hash correct.
+[OK] Bloc 103 : Hash de preuve valide
+[OK] Bloc 104 : hash du bloc correct.
+[OK] Bloc 104 : chaînage previous_hash correct.
+[OK] Bloc 104 : Hash de preuve valide
+[OK] Bloc 105 : hash du bloc correct.
+[OK] Bloc 105 : chaînage previous_hash correct.
+[OK] Bloc 105 : Hash de preuve valide
+[OK] Bloc 106 : hash du bloc correct.
+[OK] Bloc 106 : chaînage previous_hash correct.
+[OK] Bloc 106 : Hash de preuve valide
+[OK] Bloc 107 : hash du bloc correct.
+[OK] Bloc 107 : chaînage previous_hash correct.
+[OK] Bloc 107 : Hash de preuve valide
+[OK] Bloc 108 : hash du bloc correct.
+[OK] Bloc 108 : chaînage previous_hash correct.
+[OK] Bloc 108 : Hash de preuve valide
+[OK] Bloc 109 : hash du bloc correct.
+[OK] Bloc 109 : chaînage previous_hash correct.
+[OK] Bloc 109 : Hash de preuve valide
+[OK] Bloc 110 : hash du bloc correct.
+[OK] Bloc 110 : chaînage previous_hash correct.
+[OK] Bloc 110 : Hash de preuve valide
+[OK] Bloc 111 : hash du bloc correct.
+[OK] Bloc 111 : chaînage previous_hash correct.
+[OK] Bloc 111 : Hash de preuve valide
+[OK] Bloc 112 : hash du bloc correct.
+[OK] Bloc 112 : chaînage previous_hash correct.
+[OK] Bloc 112 : Hash de preuve valide
+[OK] Bloc 113 : hash du bloc correct.
+[OK] Bloc 113 : chaînage previous_hash correct.
+[OK] Bloc 113 : Hash de preuve valide
+[OK] Bloc 114 : hash du bloc correct.
+[OK] Bloc 114 : chaînage previous_hash correct.
+[OK] Bloc 114 : Hash de preuve valide
+[OK] Bloc 115 : hash du bloc correct.
+[OK] Bloc 115 : chaînage previous_hash correct.
+[OK] Bloc 115 : Hash de preuve valide
+[OK] Bloc 116 : hash du bloc correct.
+[OK] Bloc 116 : chaînage previous_hash correct.
+[OK] Bloc 116 : Hash de preuve valide
+[OK] Bloc 117 : hash du bloc correct.
+[OK] Bloc 117 : chaînage previous_hash correct.
+[OK] Bloc 117 : Hash de preuve valide
+[OK] Bloc 118 : hash du bloc correct.
+[OK] Bloc 118 : chaînage previous_hash correct.
+[OK] Bloc 118 : Hash de preuve valide
+[OK] Bloc 119 : hash du bloc correct.
+[OK] Bloc 119 : chaînage previous_hash correct.
+[OK] Bloc 119 : Hash de preuve valide
+[OK] Bloc 120 : hash du bloc correct.
+[OK] Bloc 120 : chaînage previous_hash correct.
+[OK] Bloc 120 : Hash de preuve valide
+[OK] Bloc 121 : hash du bloc correct.
+[OK] Bloc 121 : chaînage previous_hash correct.
+[OK] Bloc 121 : Hash de preuve valide
+[OK] Bloc 122 : hash du bloc correct.
+[OK] Bloc 122 : chaînage previous_hash correct.
+[OK] Bloc 122 : Hash de preuve valide
+[OK] Bloc 123 : hash du bloc correct.
+[OK] Bloc 123 : chaînage previous_hash correct.
+[OK] Bloc 123 : Hash de preuve valide
+[OK] Bloc 124 : hash du bloc correct.
+[OK] Bloc 124 : chaînage previous_hash correct.
+[OK] Bloc 124 : Hash de preuve valide
+[OK] Bloc 125 : hash du bloc correct.
+[OK] Bloc 125 : chaînage previous_hash correct.
+[OK] Bloc 125 : Hash de preuve valide
+[OK] Bloc 126 : hash du bloc correct.
+[OK] Bloc 126 : chaînage previous_hash correct.
+[OK] Bloc 126 : Hash de preuve valide
+[OK] Bloc 127 : hash du bloc correct.
+[OK] Bloc 127 : chaînage previous_hash correct.
+[OK] Bloc 127 : Hash de preuve valide
+[OK] Bloc 128 : hash du bloc correct.
+[OK] Bloc 128 : chaînage previous_hash correct.
+[OK] Bloc 128 : Hash de preuve valide
+[OK] Bloc 129 : hash du bloc correct.
+[OK] Bloc 129 : chaînage previous_hash correct.
+[OK] Bloc 129 : Hash de preuve valide
+[OK] Bloc 130 : hash du bloc correct.
+[OK] Bloc 130 : chaînage previous_hash correct.
+[OK] Bloc 130 : Hash de preuve valide
+[OK] Bloc 131 : hash du bloc correct.
+[OK] Bloc 131 : chaînage previous_hash correct.
+[OK] Bloc 131 : Hash de preuve valide
+[OK] Bloc 132 : hash du bloc correct.
+[OK] Bloc 132 : chaînage previous_hash correct.
+[OK] Bloc 132 : Hash de preuve valide
+[OK] Bloc 133 : hash du bloc correct.
+[OK] Bloc 133 : chaînage previous_hash correct.
+[OK] Bloc 133 : Hash de preuve valide
+[OK] Bloc 134 : hash du bloc correct.
+[OK] Bloc 134 : chaînage previous_hash correct.
+[OK] Bloc 134 : Hash de preuve valide
+[OK] Bloc 135 : hash du bloc correct.
+[OK] Bloc 135 : chaînage previous_hash correct.
+[OK] Bloc 135 : Hash de preuve valide
+[OK] Bloc 136 : hash du bloc correct.
+[OK] Bloc 136 : chaînage previous_hash correct.
+[OK] Bloc 136 : Hash de preuve valide
+[OK] Bloc 137 : hash du bloc correct.
+[OK] Bloc 137 : chaînage previous_hash correct.
+[OK] Bloc 137 : Hash de preuve valide
+[OK] Bloc 138 : hash du bloc correct.
+[OK] Bloc 138 : chaînage previous_hash correct.
+[OK] Bloc 138 : Hash de preuve valide
+[OK] Bloc 139 : hash du bloc correct.
+[OK] Bloc 139 : chaînage previous_hash correct.
+[OK] Bloc 139 : Hash de preuve valide
+[OK] Bloc 140 : hash du bloc correct.
+[OK] Bloc 140 : chaînage previous_hash correct.
+[OK] Bloc 140 : Hash de preuve valide
+[OK] Bloc 141 : hash du bloc correct.
+[OK] Bloc 141 : chaînage previous_hash correct.
+[OK] Bloc 141 : Hash de preuve valide
+[OK] Bloc 142 : hash du bloc correct.
+[OK] Bloc 142 : chaînage previous_hash correct.
+[OK] Bloc 142 : Hash de preuve valide
+[OK] Bloc 143 : hash du bloc correct.
+[OK] Bloc 143 : chaînage previous_hash correct.
+[OK] Bloc 143 : Hash de preuve valide
+[OK] Bloc 144 : hash du bloc correct.
+[OK] Bloc 144 : chaînage previous_hash correct.
+[OK] Bloc 144 : Hash de preuve valide
+[OK] Bloc 145 : hash du bloc correct.
+[OK] Bloc 145 : chaînage previous_hash correct.
+[OK] Bloc 145 : Hash de preuve valide
+[OK] Bloc 146 : hash du bloc correct.
+[OK] Bloc 146 : chaînage previous_hash correct.
+[OK] Bloc 146 : Hash de preuve valide
+[OK] Bloc 147 : hash du bloc correct.
+[OK] Bloc 147 : chaînage previous_hash correct.
+[OK] Bloc 147 : Hash de preuve valide
+[OK] Bloc 148 : hash du bloc correct.
+[OK] Bloc 148 : chaînage previous_hash correct.
+[OK] Bloc 148 : Hash de preuve valide
+[OK] Bloc 149 : hash du bloc correct.
+[OK] Bloc 149 : chaînage previous_hash correct.
+[OK] Bloc 149 : Hash de preuve valide
+[OK] Bloc 150 : hash du bloc correct.
+[OK] Bloc 150 : chaînage previous_hash correct.
+[OK] Bloc 150 : Hash de preuve valide
+[OK] Bloc 151 : hash du bloc correct.
+[OK] Bloc 151 : chaînage previous_hash correct.
+[OK] Bloc 151 : Hash de preuve valide
+[OK] Bloc 152 : hash du bloc correct.
+[OK] Bloc 152 : chaînage previous_hash correct.
+[OK] Bloc 152 : Hash de preuve valide
+[OK] Bloc 153 : hash du bloc correct.
+[OK] Bloc 153 : chaînage previous_hash correct.
+[OK] Bloc 153 : Hash de preuve valide
+[OK] Bloc 154 : hash du bloc correct.
+[OK] Bloc 154 : chaînage previous_hash correct.
+[OK] Bloc 154 : Hash de preuve valide
+[OK] Bloc 155 : hash du bloc correct.
+[OK] Bloc 155 : chaînage previous_hash correct.
+[OK] Bloc 155 : Hash de preuve valide
+[OK] Bloc 156 : hash du bloc correct.
+[OK] Bloc 156 : chaînage previous_hash correct.
+[OK] Bloc 156 : Hash de preuve valide
+[OK] Bloc 157 : hash du bloc correct.
+[OK] Bloc 157 : chaînage previous_hash correct.
+[OK] Bloc 157 : Hash de preuve valide
+[OK] Bloc 158 : hash du bloc correct.
+[OK] Bloc 158 : chaînage previous_hash correct.
+[OK] Bloc 158 : Hash de preuve valide
+[OK] Bloc 159 : hash du bloc correct.
+[OK] Bloc 159 : chaînage previous_hash correct.
+[OK] Bloc 159 : Hash de preuve valide
+[OK] Bloc 160 : hash du bloc correct.
+[OK] Bloc 160 : chaînage previous_hash correct.
+[OK] Bloc 160 : Hash de preuve valide
+[OK] Bloc 161 : hash du bloc correct.
+[OK] Bloc 161 : chaînage previous_hash correct.
+[OK] Bloc 161 : Hash de preuve valide
+[OK] Bloc 162 : hash du bloc correct.
+[OK] Bloc 162 : chaînage previous_hash correct.
+[OK] Bloc 162 : Hash de preuve valide
+[OK] Bloc 163 : hash du bloc correct.
+[OK] Bloc 163 : chaînage previous_hash correct.
+[OK] Bloc 163 : Hash de preuve valide
+[OK] Bloc 164 : hash du bloc correct.
+[OK] Bloc 164 : chaînage previous_hash correct.
+[OK] Bloc 164 : Hash de preuve valide
+[OK] Bloc 165 : hash du bloc correct.
+[OK] Bloc 165 : chaînage previous_hash correct.
+[OK] Bloc 165 : Hash de preuve valide
+[OK] Bloc 166 : hash du bloc correct.
+[OK] Bloc 166 : chaînage previous_hash correct.
+[OK] Bloc 166 : Hash de preuve valide
+[OK] Bloc 167 : hash du bloc correct.
+[OK] Bloc 167 : chaînage previous_hash correct.
+[OK] Bloc 167 : Hash de preuve valide
+[OK] Bloc 168 : hash du bloc correct.
+[OK] Bloc 168 : chaînage previous_hash correct.
+[OK] Bloc 168 : Hash de preuve valide
+[OK] Bloc 169 : hash du bloc correct.
+[OK] Bloc 169 : chaînage previous_hash correct.
+[OK] Bloc 169 : Hash de preuve valide
+[OK] Bloc 170 : hash du bloc correct.
+[OK] Bloc 170 : chaînage previous_hash correct.
+[OK] Bloc 170 : Hash de preuve valide
+[OK] Bloc 171 : hash du bloc correct.
+[OK] Bloc 171 : chaînage previous_hash correct.
+[OK] Bloc 171 : Hash de preuve valide
+[OK] Bloc 172 : hash du bloc correct.
+[OK] Bloc 172 : chaînage previous_hash correct.
+[OK] Bloc 172 : Hash de preuve valide
+[OK] Bloc 173 : hash du bloc correct.
+[OK] Bloc 173 : chaînage previous_hash correct.
+[OK] Bloc 173 : Hash de preuve valide
+[OK] Bloc 174 : hash du bloc correct.
+[OK] Bloc 174 : chaînage previous_hash correct.
+[OK] Bloc 174 : Hash de preuve valide
+[OK] Bloc 175 : hash du bloc correct.
+[OK] Bloc 175 : chaînage previous_hash correct.
+[OK] Bloc 175 : Hash de preuve valide
+[OK] Bloc 176 : hash du bloc correct.
+[OK] Bloc 176 : chaînage previous_hash correct.
+[OK] Bloc 176 : Hash de preuve valide
+[OK] Bloc 177 : hash du bloc correct.
+[OK] Bloc 177 : chaînage previous_hash correct.
+[OK] Bloc 177 : Hash de preuve valide
+[OK] Bloc 178 : hash du bloc correct.
+[OK] Bloc 178 : chaînage previous_hash correct.
+[OK] Bloc 178 : Hash de preuve valide
+[OK] Bloc 179 : hash du bloc correct.
+[OK] Bloc 179 : chaînage previous_hash correct.
+[OK] Bloc 179 : Hash de preuve valide
+[OK] Bloc 180 : hash du bloc correct.
+[OK] Bloc 180 : chaînage previous_hash correct.
+[OK] Bloc 180 : Hash de preuve valide
+[OK] Bloc 181 : hash du bloc correct.
+[OK] Bloc 181 : chaînage previous_hash correct.
+[OK] Bloc 181 : Hash de preuve valide
+[OK] Bloc 182 : hash du bloc correct.
+[OK] Bloc 182 : chaînage previous_hash correct.
+[OK] Bloc 182 : Hash de preuve valide
+[OK] Bloc 183 : hash du bloc correct.
+[OK] Bloc 183 : chaînage previous_hash correct.
+[OK] Bloc 183 : Hash de preuve valide
+[OK] Bloc 184 : hash du bloc correct.
+[OK] Bloc 184 : chaînage previous_hash correct.
+[OK] Bloc 184 : Hash de preuve valide
+[OK] Bloc 185 : hash du bloc correct.
+[OK] Bloc 185 : chaînage previous_hash correct.
+[OK] Bloc 185 : Hash de preuve valide
+[OK] Bloc 186 : hash du bloc correct.
+[OK] Bloc 186 : chaînage previous_hash correct.
+[OK] Bloc 186 : Hash de preuve valide
+[OK] Bloc 187 : hash du bloc correct.
+[OK] Bloc 187 : chaînage previous_hash correct.
+[OK] Bloc 187 : Hash de preuve valide
+[OK] Bloc 188 : hash du bloc correct.
+[OK] Bloc 188 : chaînage previous_hash correct.
+[OK] Bloc 188 : Hash de preuve valide
+[OK] Bloc 189 : hash du bloc correct.
+[OK] Bloc 189 : chaînage previous_hash correct.
+[OK] Bloc 189 : Hash de preuve valide
+[OK] Bloc 190 : hash du bloc correct.
+[OK] Bloc 190 : chaînage previous_hash correct.
+[OK] Bloc 190 : Hash de preuve valide
+[OK] Bloc 191 : hash du bloc correct.
+[OK] Bloc 191 : chaînage previous_hash correct.
+[OK] Bloc 191 : Hash de preuve valide
+[OK] Bloc 192 : hash du bloc correct.
+[OK] Bloc 192 : chaînage previous_hash correct.
+[OK] Bloc 192 : Hash de preuve valide
+[OK] Bloc 193 : hash du bloc correct.
+[OK] Bloc 193 : chaînage previous_hash correct.
+[OK] Bloc 193 : Hash de preuve valide
+[OK] Bloc 194 : hash du bloc correct.
+[OK] Bloc 194 : chaînage previous_hash correct.
+[OK] Bloc 194 : Hash de preuve valide
+[OK] Bloc 195 : hash du bloc correct.
+[OK] Bloc 195 : chaînage previous_hash correct.
+[OK] Bloc 195 : Hash de preuve valide
+[OK] Bloc 196 : hash du bloc correct.
+[OK] Bloc 196 : chaînage previous_hash correct.
+[OK] Bloc 196 : Hash de preuve valide
+[OK] Bloc 197 : hash du bloc correct.
+[OK] Bloc 197 : chaînage previous_hash correct.
+[OK] Bloc 197 : Hash de preuve valide
+[OK] Bloc 198 : hash du bloc correct.
+[OK] Bloc 198 : chaînage previous_hash correct.
+[OK] Bloc 198 : Hash de preuve valide
+[OK] Bloc 199 : hash du bloc correct.
+[OK] Bloc 199 : chaînage previous_hash correct.
+[OK] Bloc 199 : Hash de preuve valide
+[OK] Bloc 200 : hash du bloc correct.
+[OK] Bloc 200 : chaînage previous_hash correct.
+[OK] Bloc 200 : Hash de preuve valide
+[OK] Bloc 201 : hash du bloc correct.
+[OK] Bloc 201 : chaînage previous_hash correct.
+[OK] Bloc 201 : Hash de preuve valide
+[OK] Bloc 202 : hash du bloc correct.
+[OK] Bloc 202 : chaînage previous_hash correct.
+[OK] Bloc 202 : Hash de preuve valide
+[OK] Bloc 203 : hash du bloc correct.
+[OK] Bloc 203 : chaînage previous_hash correct.
+[OK] Bloc 203 : Hash de preuve valide
+[OK] Bloc 204 : hash du bloc correct.
+[OK] Bloc 204 : chaînage previous_hash correct.
+[OK] Bloc 204 : Hash de preuve valide
+[OK] Bloc 205 : hash du bloc correct.
+[OK] Bloc 205 : chaînage previous_hash correct.
+[OK] Bloc 205 : Hash de preuve valide
+[OK] Bloc 206 : hash du bloc correct.
+[OK] Bloc 206 : chaînage previous_hash correct.
+[OK] Bloc 206 : Hash de preuve valide
+[OK] Bloc 207 : hash du bloc correct.
+[OK] Bloc 207 : chaînage previous_hash correct.
+[OK] Bloc 207 : Hash de preuve valide
+[OK] Bloc 208 : hash du bloc correct.
+[OK] Bloc 208 : chaînage previous_hash correct.
+[OK] Bloc 208 : Hash de preuve valide
+[OK] Bloc 209 : hash du bloc correct.
+[OK] Bloc 209 : chaînage previous_hash correct.
+[OK] Bloc 209 : Hash de preuve valide
+[OK] Bloc 210 : hash du bloc correct.
+[OK] Bloc 210 : chaînage previous_hash correct.
+[OK] Bloc 210 : Hash de preuve valide
+[OK] Bloc 211 : hash du bloc correct.
+[OK] Bloc 211 : chaînage previous_hash correct.
+[OK] Bloc 211 : Hash de preuve valide
+[OK] Bloc 212 : hash du bloc correct.
+[OK] Bloc 212 : chaînage previous_hash correct.
+[OK] Bloc 212 : Hash de preuve valide
+[OK] Bloc 213 : hash du bloc correct.
+[OK] Bloc 213 : chaînage previous_hash correct.
+[OK] Bloc 213 : Hash de preuve valide
+[OK] Bloc 214 : hash du bloc correct.
+[OK] Bloc 214 : chaînage previous_hash correct.
+[OK] Bloc 214 : Hash de preuve valide
+[OK] Bloc 215 : hash du bloc correct.
+[OK] Bloc 215 : chaînage previous_hash correct.
+[OK] Bloc 215 : Hash de preuve valide
+[OK] Bloc 216 : hash du bloc correct.
+[OK] Bloc 216 : chaînage previous_hash correct.
+[OK] Bloc 216 : Hash de preuve valide
+
+Conclusion : la chaîne de blocs locale est cohérente et les preuves n'ont pas été modifiées depuis la génération du ledger.

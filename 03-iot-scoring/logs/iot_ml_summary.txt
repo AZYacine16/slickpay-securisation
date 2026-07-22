@@ -1,0 +1,18 @@
+=== Detection d'anomalies IoT par Isolation Forest ===
+Genere le             : 2026-07-22T19:10:20
+Evenements analyses   : 200
+Anomalies detectees   : 30 (15.0 %)
+Contamination         : 0.15
+Variables utilisees   : montant, freq_dispositif, freq_localisation, freq_couple_user_device, heure
+
+--- Croisement avec le moteur de regles ---
+Anomalies ML deja signalees par les regles (REVIEW/BLOCKED) : 27
+Anomalies ML NON signalees par les regles                   : 3
+
+Top 5 des evenements les plus anormaux (ml_score croissant) :
+  device_id  user_id  amount  location  risk_score decision  ml_score  ml_anomalie
+  WATCH-005 USR-1002 5350.05    Berlin          70  BLOCKED   -0.1520            1
+  WATCH-001 USR-1003 7436.30     Dubai          95  BLOCKED   -0.1512            1
+  PHONE-002 USR-1004 3723.21   Bangkok          70  BLOCKED   -0.1386            1
+  PHONE-001 USR-1003 6801.85    Berlin         100  BLOCKED   -0.1329            1
+UNKNOWN-999 USR-1001  850.00 Marseille          55   REVIEW   -0.1238            1

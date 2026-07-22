@@ -1,0 +1,27 @@
+=== Résumé de l'expérimentation blockchain locale ===
+
+Projet : SlickPay IoT / Mini-SIEM / Wazuh blockchain audit PoC
+Date de génération UTC : 2026-07-22T15:53:44.996126Z
+Algorithme de hash : SHA-256
+
+Nature de l'expérimentation :
+- preuve de concept locale ;
+- chaîne de hash légère ;
+- aucune donnée sensible stockée dans la blockchain ;
+- stockage uniquement des empreintes SHA-256 des preuves.
+
+Nombre total de blocs générés : 216
+
+Répartition des blocs par type de preuve :
+- MINI_SIEM_ALERT : 210
+- MINI_SIEM_SUMMARY : 1
+- WAZUH_PROOF : 5
+
+Fichiers absents au moment de la génération :
+- Aucun fichier attendu n'est absent
+
+Premier hash de bloc : ded1df343ed71a469ea1ffc5f865f1f3e19a1e9442fe84104435cc7c11a504db
+Dernier hash de bloc : 8c31190d1d892e98f6378861f4452aa1d58ade078c6b2d4fe5cd15fe3d8eed50
+
+Conclusion :
+La chaîne générée permet de démontrer le principe d'intégrité et de traçabilité des preuves Mini-SIEM et Wazuh dans le cadre d'une simulation blockchain locale.

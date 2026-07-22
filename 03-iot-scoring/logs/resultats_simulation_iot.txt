@@ -1,0 +1,121 @@
+=== Simulation d'un objet connecté SlickPay ===
+
+--- Événement IoT #1 ---
+Événement envoyé :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-1001",
+  "amount": 25.5,
+  "location": "Paris",
+  "transaction_type": "payment",
+  "timestamp": "2026-04-27T20:42:25.402772+00:00"
+}
+
+Réponse de l'API :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-1001",
+  "risk_score": 0,
+  "decision": "ACCEPTED",
+  "reasons": [
+    "Comportement normal"
+  ]
+}
+
+
+--- Événement IoT #2 ---
+Événement envoyé :
+{
+  "device_id": "PHONE-001",
+  "user_id": "USR-1001",
+  "amount": 320.0,
+  "location": "Paris",
+  "transaction_type": "payment",
+  "timestamp": "2026-04-27T20:42:25.403162+00:00"
+}
+
+Réponse de l'API :
+{
+  "device_id": "PHONE-001",
+  "user_id": "USR-1001",
+  "risk_score": 20,
+  "decision": "ACCEPTED",
+  "reasons": [
+    "Montant élevé"
+  ]
+}
+
+
+--- Événement IoT #3 ---
+Événement envoyé :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-1001",
+  "amount": 180.0,
+  "location": "Marseille",
+  "transaction_type": "payment",
+  "timestamp": "2026-04-27T20:42:25.403167+00:00"
+}
+
+Réponse de l'API :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-1001",
+  "risk_score": 30,
+  "decision": "ACCEPTED",
+  "reasons": [
+    "Localisation inhabituelle",
+    "Montant modéré"
+  ]
+}
+
+
+--- Événement IoT #4 ---
+Événement envoyé :
+{
+  "device_id": "UNKNOWN-999",
+  "user_id": "USR-1001",
+  "amount": 850.0,
+  "location": "Marseille",
+  "transaction_type": "payment",
+  "timestamp": "2026-04-27T20:42:25.403169+00:00"
+}
+
+Réponse de l'API :
+{
+  "device_id": "UNKNOWN-999",
+  "user_id": "USR-1001",
+  "risk_score": 55,
+  "decision": "REVIEW",
+  "reasons": [
+    "Dispositif inconnu",
+    "Montant élevé"
+  ]
+}
+
+
+--- Événement IoT #5 ---
+Événement envoyé :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-9999",
+  "amount": 1200.0,
+  "location": "Berlin",
+  "transaction_type": "payment",
+  "timestamp": "2026-04-27T20:42:25.403172+00:00"
+}
+
+Réponse de l'API :
+{
+  "device_id": "WATCH-001",
+  "user_id": "USR-9999",
+  "risk_score": 95,
+  "decision": "BLOCKED",
+  "reasons": [
+    "Dispositif associé à un autre utilisateur",
+    "Localisation inhabituelle",
+    "Montant très élevé"
+  ]
+}
+
+

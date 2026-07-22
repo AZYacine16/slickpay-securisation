@@ -1,0 +1,38 @@
+============================================================================
+EVALUATION SUR CORPUS ELARGI — VERIFICATION BIOMETRIQUE KYC
+============================================================================
+
+Corpus            : LFW (Labeled Faces in the Wild)
+Paires generees   : 200
+Paires evaluees   : 182 (exclues : 18 ORB, 0 FaceNet)
+Duree du test     : 2.4 minutes
+
+Detection de visage (images traitees) :
+  Haar parametres assouplis : 178 (44.5 %)
+  Haar sur image egalisee   : 21 (5.2 %)
+  Repli recadrage central   : 201 (50.2 %)
+
+----------------------------------------------------------------------------
+Metrique                     Pipeline ORB            FaceNet
+----------------------------------------------------------------------------
+Precision                          0.0000             1.0000
+Rappel                             0.0000             0.6923
+Exactitude                         0.5000             0.8462
+F1-score                           0.0000             0.8182
+AUC                                0.5662             0.9558
+EER (%)                             43.41               4.95
+----------------------------------------------------------------------------
+Vrais positifs                          0                 63
+Vrais negatifs                         91                 91
+Faux positifs                           0                  0
+Faux negatifs                          91                 28
+----------------------------------------------------------------------------
+
+Seuils du prototype : ORB 75 % et 20 correspondances | FaceNet 0.4
+Seuils optimaux EER : ORB 42.86 % | FaceNet 0.6166
+
+Rappel : un AUC proche de 0,50 indique une discrimination equivalente
+au hasard ; un EER faible traduit une bonne separation des classes.
+
+Figures : roc_kyc_comparaison.png, distributions_scores_kyc.png
+============================================================================

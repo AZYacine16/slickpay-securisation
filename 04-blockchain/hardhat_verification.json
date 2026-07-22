@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-05-06T12:13:22.746Z",
+  "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "globalStatus": "VALID",
+  "results": [
+    {
+      "evidenceId": 0,
+      "fileName": "siem_alerts.jsonl",
+      "sourcePath": "logs/siem_alerts.jsonl",
+      "originalHash": "f95d54130b751115934043be6a43ab60c47546fff6131a17c4c3545e59d8e6b6",
+      "currentHash": "f95d54130b751115934043be6a43ab60c47546fff6131a17c4c3545e59d8e6b6",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 1,
+      "fileName": "siem_summary.txt",
+      "sourcePath": "logs/siem_summary.txt",
+      "originalHash": "51da09644b50753540ed4d418f394230891867e7110f9f01abccc64b738eadb4",
+      "currentHash": "51da09644b50753540ed4d418f394230891867e7110f9f01abccc64b738eadb4",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 2,
+      "fileName": "wazuh_compose_ps.txt",
+      "sourcePath": "logs/wazuh_compose_ps.txt",
+      "originalHash": "33b5b3a6d4a0dc9be08eab5535f05c525a9605210c5d2c56a1fea36720faabf3",
+      "currentHash": "33b5b3a6d4a0dc9be08eab5535f05c525a9605210c5d2c56a1fea36720faabf3",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 3,
+      "fileName": "wazuh_dashboard_logs.txt",
+      "sourcePath": "logs/wazuh_dashboard_logs.txt",
+      "originalHash": "4177899d2bff7c446879dcffe983101795c9770b7b173deed2aadf09b38f7dcf",
+      "currentHash": "4177899d2bff7c446879dcffe983101795c9770b7b173deed2aadf09b38f7dcf",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 4,
+      "fileName": "wazuh_indexer_logs.txt",
+      "sourcePath": "logs/wazuh_indexer_logs.txt",
+      "originalHash": "d73f51e315462496788038c450d4b0c9289ca80ac7671636b099bed9864703f4",
+      "currentHash": "d73f51e315462496788038c450d4b0c9289ca80ac7671636b099bed9864703f4",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 5,
+      "fileName": "wazuh_manager_logs.txt",
+      "sourcePath": "logs/wazuh_manager_logs.txt",
+      "originalHash": "95f4edde8890831d6991720fa1e6436fe7e77db574d10c33ebe2f45a07dcba6c",
+      "currentHash": "95f4edde8890831d6991720fa1e6436fe7e77db574d10c33ebe2f45a07dcba6c",
+      "status": "VALID"
+    },
+    {
+      "evidenceId": 6,
+      "fileName": "wazuh_disk_state.txt",
+      "sourcePath": "logs/wazuh_disk_state.txt",
+      "originalHash": "dbd7c32b7bb8157c1d28fe77b1169203e4ec13a76eff96f5b335e9da0bd237ef",
+      "currentHash": "dbd7c32b7bb8157c1d28fe77b1169203e4ec13a76eff96f5b335e9da0bd237ef",
+      "status": "VALID"
+    }
+  ]
+}

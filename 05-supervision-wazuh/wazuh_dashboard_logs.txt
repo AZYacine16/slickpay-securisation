@@ -1,0 +1,67 @@
+wazuh.dashboard-1  | Created OpenSearch Dashboards keystore in /usr/share/wazuh-dashboard/config/opensearch_dashboards.keystore
+wazuh.dashboard-1  | Wazuh APP already configured
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-service"],"pid":54,"message":"Plugin \"applicationConfig\" is disabled."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-service"],"pid":54,"message":"Plugin \"cspHandler\" is disabled."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-service"],"pid":54,"message":"Plugin \"dataSource\" is disabled."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-service"],"pid":54,"message":"Plugin \"visTypeXy\" is disabled."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-service"],"pid":54,"message":"Plugin \"workspace\" is disabled."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["warning","config","deprecation"],"pid":54,"message":"\"opensearch.requestHeadersWhitelist\" is deprecated and has been replaced by \"opensearch.requestHeadersAllowlist\""}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","dynamic-config-service"],"pid":54,"message":"registering middleware to inject context to AsyncLocalStorage"}
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:49Z","tags":["info","plugins-system"],"pid":54,"message":"Setting up [51] plugins: [usageCollection,opensearchDashboardsUsageCollection,opensearchDashboardsLegacy,mapsLegacy,share,legacyExport,opensearchUiShared,embeddable,expressions,data,dataExplorer,savedObjects,queryEnhancements,home,dashboard,visualizations,visTypeTable,visTypeVega,visTypeTimeline,visTypeMarkdown,tileMap,visBuilder,regionMap,visAugmenter,inputControlVis,ganttChartDashboards,visualize,apmOss,management,indexPatternManagement,dataSourceManagement,indexManagementDashboards,alertingDashboards,customImportMapDashboards,reportsDashboards,anomalyDetectionDashboards,notificationsDashboards,console,advancedSettings,charts,visTypeTagcloud,visTypeVislib,visTypeTimeseries,visTypeMetric,discover,savedObjectsManagement,securityDashboards,wazuhCore,wazuhCheckUpdates,wazuh,bfetch]"}
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["info","plugins","queryEnhancements"],"pid":54,"message":"queryEnhancements: Setup complete"}
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | [agentkeepalive:deprecated] options.freeSocketKeepAliveTimeout is deprecated, please use options.freeSocketTimeout instead
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["info","dynamic-config-service"],"pid":54,"message":"initiating start()"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["info","dynamic-config-service"],"pid":54,"message":"finished start()"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["info","savedobjects-service"],"pid":54,"message":"Waiting until all OpenSearch nodes are compatible with OpenSearch Dashboards before starting saved objects migrations..."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:50Z","tags":["error","savedobjects-service"],"pid":54,"message":"Unable to retrieve version information from OpenSearch nodes."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:53Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:55Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:28:58Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:00Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:03Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:05Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:08Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:10Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:13Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:15Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:18Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:20Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:23Z","tags":["error","opensearch","data"],"pid":54,"message":"[ConnectionError]: connect ECONNREFUSED 172.18.0.3:9200"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:28Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:28Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:32Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:33Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:36Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:38Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:41Z","tags":["info","savedobjects-service"],"pid":54,"message":"Starting saved objects migrations"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:41Z","tags":["info","savedobjects-service"],"pid":54,"message":"Creating index .kibana_1."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:42Z","tags":["info","savedobjects-service"],"pid":54,"message":"Pointing alias .kibana to .kibana_1."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:42Z","tags":["info","savedobjects-service"],"pid":54,"message":"Finished in 430ms."}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:42Z","tags":["warning","cross-compatibility-service"],"pid":54,"message":"Starting cross compatibility service"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:42Z","tags":["info","plugins-system"],"pid":54,"message":"Starting [51] plugins: [usageCollection,opensearchDashboardsUsageCollection,opensearchDashboardsLegacy,mapsLegacy,share,legacyExport,opensearchUiShared,embeddable,expressions,data,dataExplorer,savedObjects,queryEnhancements,home,dashboard,visualizations,visTypeTable,visTypeVega,visTypeTimeline,visTypeMarkdown,tileMap,visBuilder,regionMap,visAugmenter,inputControlVis,ganttChartDashboards,visualize,apmOss,management,indexPatternManagement,dataSourceManagement,indexManagementDashboards,alertingDashboards,customImportMapDashboards,reportsDashboards,anomalyDetectionDashboards,notificationsDashboards,console,advancedSettings,charts,visTypeTagcloud,visTypeVislib,visTypeTimeseries,visTypeMetric,discover,savedObjectsManagement,securityDashboards,wazuhCore,wazuhCheckUpdates,wazuh,bfetch]"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:43Z","tags":["info","plugins","wazuh","initialize"],"pid":54,"message":"dashboard index: .kibana"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:43Z","tags":["info","plugins","wazuh","initialize"],"pid":54,"message":"App revision: 01"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:43Z","tags":["info","plugins","wazuh","initialize"],"pid":54,"message":"Total RAM: 5925MB"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:43Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:43Z","tags":["info","plugins","wazuh","cron-scheduler"],"pid":54,"message":"Updated the wazuh-statistics template"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:44Z","tags":["listening","info"],"pid":54,"message":"Server running at https://0.0.0.0:5601"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:46Z","tags":["info","http","server","OpenSearchDashboards"],"pid":54,"message":"http server running at https://0.0.0.0:5601"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:47Z","tags":["error","opensearch","data"],"pid":54,"message":"[ResponseError]: Response Error"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:48Z","tags":["info","plugins","wazuh","monitoring"],"pid":54,"message":"Updated the wazuh-agent template"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:53Z","tags":["info","plugins","wazuh","monitoring"],"pid":54,"message":"wazuh-monitoring-2026.19w index created"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:29:53Z","tags":["info","plugins","wazuh","monitoring"],"pid":54,"message":"Settings added to wazuh-monitoring-2026.19w index"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:30:06Z","tags":["error","opensearch","data"],"pid":54,"message":"[resource_already_exists_exception]: index [wazuh-statistics-2026.19w/xJlcwXS7RRSJ5s3NqX-pjQ] already exists"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:30:07Z","tags":["info","plugins","wazuh","monitoring"],"pid":54,"message":"Settings added to wazuh-monitoring-2026.19w index"}
+wazuh.dashboard-1  | {"type":"log","@timestamp":"2026-05-05T12:30:07Z","tags":["info","plugins","wazuh","cron-scheduler"],"pid":54,"message":"wazuh-statistics-2026.19w index created"}

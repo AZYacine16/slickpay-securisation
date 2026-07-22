@@ -1,0 +1,12 @@
+Preuve de déploiement Wazuh via Docker Compose
+
+Services observés :
+- single-node-wazuh.dashboard-1 : Up, port 443 -> 5601
+- single-node-wazuh.indexer-1   : Up, port 9200 -> 9200
+- single-node-wazuh.manager-1   : Up, ports 1514, 1515, 514/udp, 55000
+
+Éléments complémentaires :
+- Dashboard accessible via https://localhost
+- API Wazuh Online
+- Version affichée : v4.14.5
+- Cluster OpenSearch observé en état GREEN dans les logs

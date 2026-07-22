@@ -1,0 +1,23 @@
+==========================================================================
+COMPARAISON DES APPROCHES DE VERIFICATION BIOMETRIQUE (KYC)
+==========================================================================
+
+Cas            ORB (%)  Corresp.         Decision ORB
+--------------------------------------------------------------------------
+Positif 1        98.82       170       CORRESPONDANCE
+Positif 2         87.5        40       CORRESPONDANCE
+Négatif          71.43         7   NON-CORRESPONDANCE
+
+Cas           Distance     Seuil     Decision FaceNet
+--------------------------------------------------------------------------
+Positif 1       0.0053       0.4       CORRESPONDANCE
+Positif 2       0.1702       0.4       CORRESPONDANCE
+Négatif         0.7267       0.4   NON-CORRESPONDANCE
+
+--------------------------------------------------------------------------
+Concordance des decisions : 3/3 cas
+--------------------------------------------------------------------------
+
+Note : le pourcentage ORB (proportion d'inliers RANSAC) et la distance
+cosinus FaceNet ne sont pas directement comparables. Seules les
+DECISIONS finales le sont.

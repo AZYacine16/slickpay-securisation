@@ -21,13 +21,21 @@ locale en Python, et un smart contract déployé sur une blockchain Ethereum loc
 + 5 preuves Wazuh). Vérification d'intégrité : **VALIDÉ**. Seules les empreintes
 SHA-256 sont enregistrées — aucune donnée sensible n'est stockée on-chain.
 
-## Limite assumée
+## Contrôle d'accès
 
-Le contrat `EvidenceRegistry` expose une fonction `addEvidence` publique qui ne
-restreint pas l'écriture à une identité autorisée (pas de mécanisme `onlyOwner` ni de
-gestion de rôles). Les preuves déjà enregistrées ne peuvent être ni modifiées ni
-supprimées (intégrité préservée), mais un tiers pourrait ajouter des empreintes.
-En production, un contrôle d'accès serait indispensable.
+L'écriture dans `EvidenceRegistry` est restreinte au propriétaire via le modificateur
+`onlyOwner` : seule l'adresse ayant déployé le contrat peut enregistrer une empreinte,
+et la propriété est transférable via `transferOwnership`. La lecture reste ouverte, ce
+qui permet à un tiers de vérifier une preuve sans pouvoir en ajouter. Les empreintes
+enregistrées ne peuvent être ni modifiées ni supprimées.
+
+## Limites assumées
+
+Le réseau Hardhat utilisé est local et temporaire : il ne s'agit pas d'une blockchain
+de production. La gouvernance des clés et la persistance du registre restent hors
+périmètre ; une version industrialisée supposerait un réseau privé persistant, une
+gestion sécurisée des clés et une gouvernance des nœuds.
+
 
 ## Exécution
 

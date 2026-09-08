@@ -44,13 +44,15 @@ téléchargés séparément :
 ## Avertissement de sécurité
 
 Ces expérimentations sont des **preuves de concept académiques**. Elles comportent des
-simplifications assumées et documentées dans le mémoire (chapitre 4, section « Limites
-assumées »), notamment :
+simplifications assumées et documentées dans le mémoire (chapitre 3, section « Limites
+de l'approche proposée »), notamment :
 
-- la clé d'API du prototype IoT est une clé de démonstration (`slickpay-demo-key`) ;
-- le smart contract `EvidenceRegistry` ne restreint pas l'écriture à une identité
-  autorisée (pas de mécanisme `onlyOwner`) — limite identifiée et destinée à une
-  version industrialisée ;
-- le déploiement AWS et le réseau blockchain Hardhat sont locaux et temporaires.
+- la clé d'API du prototype IoT est une clé de démonstration (`slickpay-demo-key`),
+  remplacée par une variable d'environnement dans le déploiement AWS ;
+- le smart contract `EvidenceRegistry` restreint l'écriture au propriétaire via le
+  modificateur `onlyOwner`, mais la gouvernance des clés reste hors périmètre ;
+- le déploiement AWS et le réseau blockchain Hardhat sont locaux et temporaires ;
+- le corpus KYC de démonstration se limite à trois paires d'images ; l'évaluation
+  élargie porte sur 182 paires du corpus LFW.
 
 Ne pas réutiliser en l'état dans un environnement de production.

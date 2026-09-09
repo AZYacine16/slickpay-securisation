@@ -1,0 +1,8 @@
+<!-- Extrait de /var/ossec/etc/ossec.conf (Wazuh Manager) -->
+<!-- Declare les alertes du mini-SIEM comme source de journaux JSON -->
+<!-- A inserer avant la balise fermante </ossec_config> -->
+
+  <localfile>
+    <log_format>json</log_format>
+    <location>/var/ossec/logs/slickpay/siem_alerts.jsonl</location>
+  </localfile>

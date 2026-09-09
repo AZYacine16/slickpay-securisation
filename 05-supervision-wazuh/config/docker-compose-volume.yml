@@ -1,0 +1,8 @@
+# Extrait du docker-compose.yml de wazuh-docker/single-node
+# Monte le repertoire de journaux du prototype en lecture seule
+# dans le conteneur wazuh.manager
+
+services:
+  wazuh.manager:
+    volumes:
+      - /chemin/vers/slickpay_iot_poc/logs:/var/ossec/logs/slickpay:ro

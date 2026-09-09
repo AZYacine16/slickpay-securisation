@@ -1,38 +1,39 @@
-# 05 — Supervision Wazuh (BC03)
-
-Preuves du déploiement expérimental de Wazuh (SIEM open source) en local via Docker
-Compose, en complément du mini-SIEM applicatif.
-
-> **Note** : ce dossier ne contient pas le code de Wazuh (dépôt officiel `wazuh-docker`),
-> mais uniquement les **preuves** du déploiement réalisé dans le cadre du mémoire.
+# Supervision : mini-SIEM applicatif et intégration Wazuh
 
 ## Contenu
 
-| Fichier | Rôle |
-|---|---|
-| `wazuh_compose_ps.txt` | État des conteneurs (Manager, Indexer, Dashboard) |
-| `wazuh_manager_logs.txt` | Journaux du Wazuh Manager |
-| `wazuh_indexer_logs.txt` | Journaux de l'Indexer (cluster OpenSearch GREEN) |
-| `wazuh_dashboard_logs.txt` | Journaux du Dashboard |
-| `wazuh_disk_state.txt`, `wazuh_docker_disk_usage.txt` | Consommation disque après expérimentation |
+- `config/local_rules.xml` — quatre règles de corrélation personnalisées
+- `config/ossec-localfile.xml` — déclaration de la source de journaux JSON
+- `config/docker-compose-volume.yml` — montage du répertoire de journaux
 
-## Déploiement (rappel)
+## Règles de détection
 
-Wazuh a été déployé à partir du dépôt officiel :
+| ID | Niveau | Déclencheur |
+|---|---|---|
+| 100100 | 0 | Règle parente : événements émis par le prototype |
+| 100101 | 10 | Alertes `ML_ANOMALY` du modèle Isolation Forest |
+| 100102 | 12 | Transactions de sévérité `CRITICAL` |
+| 100103 | 7 | Contextes inhabituels |
 
-```bash
-git clone https://github.com/wazuh/wazuh-docker.git
-cd wazuh-docker/single-node
-docker compose -f generate-indexer-certs.yml run --rm generator
-docker compose up -d
-```
+Les descriptions injectent dynamiquement `device_id` et `location`.
 
-Dashboard accessible sur `https://localhost`. Le cluster OpenSearch était en état
-`GREEN`, confirmant l'initialisation correcte des composants.
+## Mise en œuvre
 
-## Trajectoire d'intégration
+1. Ajouter le volume au `docker-compose.yml` du service `wazuh.manager`
+2. Insérer le bloc `localfile` dans `ossec.conf`
+3. Copier `local_rules.xml` dans `/var/ossec/etc/rules/`
+4. Redémarrer le Manager
+5. Valider avec `/var/ossec/bin/wazuh-logtest`
 
-Les journaux applicatifs de SlickPay étant au format JSON (`iot_events.jsonl`,
-`siem_alerts.jsonl`), leur ingestion reposerait sur un agent Wazuh et un décodeur JSON
-côté Manager, avec des règles de corrélation attribuant un niveau de criticité aux
-alertes `ML_ANOMALY`.
+## Validation obtenue
+
+Le décodeur JSON extrait les 17 champs de l'alerte, la règle 100101 se déclenche
+au niveau 10, et le moteur conclut par `Alert to be generated`. Captures dans le
+mémoire, annexe « Preuves de l'intégration Wazuh ».
+
+## Limite assumée
+
+L'exploitation en continu de la pile s'est heurtée à une contrainte matérielle :
+l'indexation OpenSearch sature l'espace disque du poste utilisé en quelques
+minutes. La remontée dans le tableau de bord sur une période prolongée n'a donc
+pas été conduite.

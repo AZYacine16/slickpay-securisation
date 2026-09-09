@@ -1,0 +1,33 @@
+<!-- Regles de correlation SlickPay pour Wazuh Manager -->
+<!-- A placer dans /var/ossec/etc/rules/local_rules.xml -->
+
+<group name="slickpay,mini_siem,">
+
+  <rule id="100100" level="0">
+    <decoded_as>json</decoded_as>
+    <field name="source">SlickPay</field>
+    <description>SlickPay mini-SIEM : evenement collecte</description>
+  </rule>
+
+  <rule id="100101" level="10">
+    <if_sid>100100</if_sid>
+    <field name="alert_type">^ML_ANOMALY$</field>
+    <description>SlickPay : anomalie comportementale detectee par Isolation Forest sur $(device_id)</description>
+    <group>anomaly_detection,machine_learning,</group>
+  </rule>
+
+  <rule id="100102" level="12">
+    <if_sid>100100</if_sid>
+    <field name="severity">^CRITICAL$</field>
+    <description>SlickPay : transaction a risque critique, decision $(decision)</description>
+    <group>fraud,</group>
+  </rule>
+
+  <rule id="100103" level="7">
+    <if_sid>100100</if_sid>
+    <field name="alert_type">^UNUSUAL_CONTEXT$</field>
+    <description>SlickPay : contexte inhabituel sur $(device_id) depuis $(location)</description>
+    <group>anomaly_detection,</group>
+  </rule>
+
+</group>
